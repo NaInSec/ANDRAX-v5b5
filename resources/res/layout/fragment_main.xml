@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/blackfull" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="20dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:id="@+id/imageViewmainbanner" android:layout_width="match_parent" android:layout_height="200dp" android:layout_marginTop="50dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" app:srcCompat="@drawable/andrax_banner"/>
+                <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="@android:color/background_light" android:gravity="center" android:id="@+id/textView3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="ANDRAX Hacker&apos;s Platform powered by\10The Cracker Technology" android:layout_below="@+id/imageViewmainbanner" android:layout_alignParentLeft="false" android:layout_alignParentTop="false" android:fontFamily="serif" android:layout_alignParentStart="false"/>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/linearboxmain" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:layout_below="@+id/textView3">
+                    <GridLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:rowCount="2" android:columnCount="2">
+                        <Button android:id="@+id/btnmanual" android:layout_width="150dp" android:layout_height="wrap_content" android:text="DOCUMENTATION"/>
+                        <Button android:id="@+id/btnyoutube" android:layout_width="150dp" android:layout_height="wrap_content" android:text="YOUTUBE"/>
+                        <Button android:id="@+id/btntutorials" android:layout_width="150dp" android:layout_height="wrap_content" android:text="TUTORIALS"/>
+                        <Button android:id="@+id/btncontact" android:layout_width="150dp" android:layout_height="wrap_content" android:text="CONTACT"/>
+                    </GridLayout>
+                    <Button android:typeface="serif" android:textStyle="bold" android:id="@+id/btnrun" android:layout_width="300dp" android:layout_height="wrap_content" android:text="Be a Cracker"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:typeface="serif" android:textColor="@color/colorAccent" android:textColorHighlight="@color/colorAccent" android:id="@+id/textView13" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:text="ANDRAX v5R: NH-Killer BUILD: 5 [ 5005 ]" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

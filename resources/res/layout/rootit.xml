@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/myrl" android:background="@drawable/layout_for_dco" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ScrollView android:id="@+id/mysv" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20sp" android:typeface="serif" android:textStyle="bold" android:textColor="@color/whitefull" android:gravity="center" android:id="@+id/textView39" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="ROOT ACCESS NEEDED"/>
+            <android.support.v7.widget.AppCompatImageView android:id="@+id/imageView_banner_05" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginBottom="10dp" app:srcCompat="@drawable/andrax_banner"/>
+            <android.support.v7.widget.CardView android:theme="@style/Theme.AppCompat" android:layout_gravity="center" android:id="@+id/card_view_needroot" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="80dp" android:layout_margin="5dp" android:foreground="?android:attr/selectableItemBackground" app:cardBackgroundColor="#111111" app:cardCornerRadius="2dp" app:contentPadding="10dp">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="18sp" android:typeface="serif" android:textStyle="bold" android:textColor="@color/colorAccent" android:gravity="center" android:id="@+id/textView_needroot_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Need root!" android:layout_alignParentTop="true"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:gravity="center" android:id="@+id/textView_needroot_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ANDRAX need super user privilege to work, provide root access for ANDRAX" android:layout_below="@+id/textView_needroot_title" android:layout_centerVertical="false"/>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="35" android:versionName="v5R: NH-KILLER (BUILD: 5) [ 5005 ]" android:installLocation="preferExternal" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.thecrackertechnology.andrax" platformBuildVersionCode="28" platformBuildVersionName="9">
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" android:maxSdkVersion="25"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <permission android:name="com.thecrackertechnology.andrax.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.thecrackertechnology.andrax.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"/>
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT"/>
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_APP_BADGE"/>
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE"/>
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/andraxicon" android:name="com.thecrackertechnology.andrax.AndraxApp" android:persistent="true" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:allowBackup="true" android:hardwareAccelerated="true" android:largeHeap="true" android:supportsRtl="false" android:usesCleartextTraffic="true" android:resizeableActivity="true" android:roundIcon="@mipmap/ic_lancher_round" android:appComponentFactory="android.support.v4.app.CoreComponentFactory">
+        <activity android:theme="@style/AppTheme.NoActionBar" android:name="com.thecrackertechnology.andrax.SplashActivity" android:taskAffinity=".SplashActivity" android:excludeFromRecents="false" android:launchMode="singleTask" android:screenOrientation="fullSensor" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AppTheme.NoActionBar.Dark2" android:label="Dragon Terminal" android:icon="@mipmap/dragon_terminal" android:name="com.thecrackertechnology.dragonterminal.ui.term.NeoTermActivity" android:screenOrientation="fullSensor" android:configChanges="keyboardHidden|screenSize" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize" android:roundIcon="@mipmap/dragon_terminal_al_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/app_shortcuts"/>
+        </activity>
+        <activity-alias android:name="com.thecrackertechnology.dragonterminal.NeoLotMainActivity" android:targetActivity="com.thecrackertechnology.dragonterminal.ui.term.NeoTermActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.IOT_LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:theme="@style/AppTheme" android:label="Learn Hacking" android:icon="@mipmap/learnhack" android:name="com.thecrackertechnology.andrax.TutorialActivity" android:excludeFromRecents="false" android:launchMode="singleTask" android:screenOrientation="fullSensor" android:hardwareAccelerated="true" android:roundIcon="@mipmap/learnhack_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AppTheme" android:label="Twitter ANDRAX" android:icon="@mipmap/twitter_icon" android:name="com.thecrackertechnology.andrax.TwitterLauncher" android:excludeFromRecents="false" android:screenOrientation="fullSensor" android:hardwareAccelerated="true" android:roundIcon="@mipmap/twitter_icon_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AppTheme" android:label="Telegram Channel" android:icon="@mipmap/telegram_icon" android:name="com.thecrackertechnology.andrax.TelegramLauncher" android:excludeFromRecents="false" android:screenOrientation="fullSensor" android:hardwareAccelerated="true" android:roundIcon="@mipmap/telegram_icon_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AppTheme.NoActionBar" android:label="ANDRAX Hacker&apos;s Platform" android:name="com.thecrackertechnology.andrax.MainActivity" android:excludeFromRecents="false" android:launchMode="singleTask" android:screenOrientation="fullSensor" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true"/>
+        <activity android:theme="@style/AppTheme" android:label="@string/title_activity_vmp" android:name="com.thecrackertechnology.andrax.VmpActivity" android:excludeFromRecents="false" android:launchMode="singleTask" android:screenOrientation="fullSensor" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:parentActivityName="com.thecrackertechnology.andrax.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.thecrackertechnology.andrax.MainActivity"/>
+        </activity>
+        <activity android:theme="@style/AppTheme" android:label="@string/title_activity_axweb_server" android:name="com.thecrackertechnology.andrax.AXWebServer" android:excludeFromRecents="false"/>
+        <activity android:theme="@style/Theme.Dialog" android:label="01 Information Gathering" android:icon="@drawable/information_gathering" android:name="com.thecrackertechnology.andrax.Dco_Information_Gathering" android:excludeFromRecents="false" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:roundIcon="@mipmap/information_gathering_al_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Dialog" android:label="02 Scanning" android:icon="@drawable/scanning" android:name="com.thecrackertechnology.andrax.Dco_Scanning" android:excludeFromRecents="false" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:roundIcon="@mipmap/scanning_al_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Dialog" android:label="03 Packet Crafting" android:icon="@drawable/packet_crafting" android:name="com.thecrackertechnology.andrax.Dco_Packet_Crafting" android:excludeFromRecents="false" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:roundIcon="@mipmap/packet_crafting_al_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Dialog" android:label="04 Network Hacking" android:icon="@drawable/networkhacking" android:name="com.thecrackertechnology.andrax.Dco_network_hacking" android:excludeFromRecents="false" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:roundIcon="@mipmap/network_hacking_al_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Dialog" android:label="05 WebSite Hacking" android:icon="@drawable/websitehacking" android:name="com.thecrackertechnology.andrax.Dco_website_hacking" android:excludeFromRecents="false" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:roundIcon="@mipmap/website_hacking_al_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Dialog" android:label="06 Password Hacking" android:icon="@drawable/passwordhacking" android:name="com.thecrackertechnology.andrax.Dco_Password_Hacking" android:excludeFromRecents="false" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:roundIcon="@mipmap/password_hacking_al_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Dialog" android:label="07 Wireless Hacking" android:icon="@drawable/wireless" android:name="com.thecrackertechnology.andrax.Dco_Wireless_Hacking" android:excludeFromRecents="false" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:roundIcon="@mipmap/wireless_hacking_al_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Dialog" android:label="08 Exploitation" android:icon="@drawable/exploit" android:name="com.thecrackertechnology.andrax.Dco_exploitation" android:excludeFromRecents="false" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:roundIcon="@mipmap/exploit_al_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Dialog" android:label="09 Stress Testing" android:icon="@drawable/stress_testing" android:name="com.thecrackertechnology.andrax.Dco_stress_testing" android:excludeFromRecents="false" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:roundIcon="@mipmap/stress_testing_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Dialog" android:label="10 Phishing" android:icon="@drawable/phishing" android:name="com.thecrackertechnology.andrax.Dco_phishing" android:excludeFromRecents="false" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:roundIcon="@mipmap/phishing_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Dialog" android:label="11 Voip/3G/4G/UMTS/LTE" android:icon="@drawable/mobilenethacking" android:name="com.thecrackertechnology.andrax.Dco_voip_3g_4g" android:excludeFromRecents="false" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:roundIcon="@mipmap/mobile_network_hacking_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Dialog" android:label="12 ICS/SCADA/IIoT/IoT" android:icon="@drawable/ics" android:name="com.thecrackertechnology.andrax.Dco_ics_scada_iot" android:excludeFromRecents="false" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:roundIcon="@mipmap/industrial_control_system_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Material" android:name="com.thecrackertechnology.andrax.CustomCrashReport" android:process=":acra" android:finishOnTaskLaunch="true" android:excludeFromRecents="false" android:launchMode="singleInstance"/>
+        <activity android:theme="@style/AppTheme" android:label="M.A.R.I.N.A" android:icon="@drawable/marina" android:name="com.thecrackertechnology.andrax.MARINA" android:excludeFromRecents="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:roundIcon="@mipmap/marina_al">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AppTheme" android:label="cht.sh" android:icon="@mipmap/cheatsheet" android:name="com.thecrackertechnology.andrax.chtsh" android:excludeFromRecents="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:roundIcon="@mipmap/cheatsheet_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Dialog" android:label="13 Mainframes" android:icon="@mipmap/mainframes" android:name="com.thecrackertechnology.andrax.Dco_Mainframes" android:excludeFromRecents="false" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:roundIcon="@mipmap/mainframes_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Dialog" android:label="Enable Root" android:name="com.thecrackertechnology.andrax.RootIt" android:excludeFromRecents="false" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true"/>
+        <activity android:theme="@style/Theme.Dialog" android:label="Wrong CORE VERSION" android:name="com.thecrackertechnology.andrax.CheckCoreVersion" android:excludeFromRecents="false" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true"/>
+        <provider android:name="android.support.v4.content.FileProvider" android:exported="false" android:authorities="com.thecrackertechnology.andrax.provider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/filepaths"/>
+        </provider>
+        <activity android:theme="@style/AppTheme.Dark" android:name="com.thecrackertechnology.dragonterminal.ui.term.NeoTermRemoteInterface" android:exported="true" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:label="@string/term_here" android:name="com.thecrackertechnology.dragonterminal.ui.term.TermHere" android:exported="true" android:targetActivity="com.thecrackertechnology.dragonterminal.ui.term.NeoTermRemoteInterface">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <data android:mimeType="*/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/user_script" android:name="com.thecrackertechnology.dragonterminal.ui.term.UserScript" android:exported="true" android:targetActivity="com.thecrackertechnology.dragonterminal.ui.term.NeoTermRemoteInterface">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <data android:mimeType="*/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="file"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <data android:mimeType="*/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="ftp"/>
+                <data android:mimeType="application/*"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:theme="@style/AppTheme.NoActionBar.Dark2" android:label="@string/about" android:name="com.thecrackertechnology.dragonterminal.ui.support.AboutActivity" android:exported="false"/>
+        <activity android:theme="@style/AppTheme.NoActionBar" android:name="com.thecrackertechnology.dragonterminal.ui.setup.SetupActivity" android:exported="true" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/AppTheme.NoActionBar.Dark2" android:name="com.thecrackertechnology.dragonterminal.ui.bonus.BonusActivity" android:exported="false" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:theme="@style/AppTheme.NoActionBar.Dark2" android:label="@string/package_settings" android:name="com.thecrackertechnology.dragonterminal.ui.pm.PackageManagerActivity" android:exported="false"/>
+        <activity android:theme="@style/AppTheme.NoActionBar.Dark2" android:label="@string/customization_settings" android:name="com.thecrackertechnology.dragonterminal.ui.customize.CustomizeActivity" android:exported="false"/>
+        <activity android:theme="@style/AppTheme.NoActionBar.Dark2" android:label="@string/pref_customization_color_scheme" android:name="com.thecrackertechnology.dragonterminal.ui.customize.ColorSchemeActivity" android:exported="false"/>
+        <activity android:theme="@style/AppTheme.NoActionBar.Dark2" android:label="@string/faq" android:name="com.thecrackertechnology.dragonterminal.ui.support.HelpActivity" android:exported="false"/>
+        <activity android:theme="@style/AppTheme.BlackFull" android:name="com.thecrackertechnology.dragonterminal.ui.settings.SettingActivity" android:exported="false"/>
+        <activity android:theme="@style/AppTheme.BlackFull" android:name="com.thecrackertechnology.dragonterminal.ui.settings.GeneralSettingsActivity" android:exported="false"/>
+        <activity android:theme="@style/AppTheme.BlackFull" android:name="com.thecrackertechnology.dragonterminal.ui.settings.UISettingsActivity" android:exported="false"/>
+        <service android:name="com.thecrackertechnology.dragonterminal.services.NeoTermService" android:enabled="true"/>
+        <meta-data android:name="com.sec.android.support.multiwindow" android:value="true"/>
+        <meta-data android:name="com.lge.support.SPLIT_WINDOW" android:value="true"/>
+        <activity android:theme="@style/AppTheme" android:label="CodeHACK IDE" android:icon="@drawable/codehack" android:name="com.thecrackertechnology.codehackide.MainActivityCodeHackIDE" android:persistent="true" android:taskAffinity=".MainActivityCodeHackIDE" android:excludeFromRecents="false" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustNothing" android:hardwareAccelerated="true" android:roundIcon="@mipmap/codehack_al">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/FilePickerTheme" android:label="CodeHACK IDE" android:name="com.nononsenseapps.filepicker.FilePickerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.thecrackertechnology.codehackide.MyNot"/>
+        <meta-data android:name="onesignal_app_id" android:value="18549c0c-ad20-48c5-84a9-979596bf3806"/>
+        <meta-data android:name="onesignal_google_project_number" android:value="str:REMOTE"/>
+        <receiver android:name="com.onesignal.GcmBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter android:priority="999">
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="com.thecrackertechnology.andrax"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.onesignal.NotificationOpenedReceiver"/>
+        <service android:name="com.onesignal.HmsMessageServiceOneSignal" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.push.action.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.onesignal.NotificationOpenedActivityHMS">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.onesignal.GcmIntentService"/>
+        <service android:name="com.onesignal.GcmIntentJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.onesignal.RestoreJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.onesignal.RestoreKickoffJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.onesignal.SyncService" android:stopWithTask="true"/>
+        <service android:name="com.onesignal.SyncJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.onesignal.PermissionsActivity"/>
+        <service android:name="com.onesignal.NotificationRestoreService"/>
+        <receiver android:name="com.onesignal.BootUpReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.onesignal.UpgradeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.firebase.messaging.FirebaseMessagingService" android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.google.firebase.components.ComponentDiscoveryService" android:exported="false">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.firebase.iid.FirebaseInstanceIdService" android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="com.thecrackertechnology.andrax.firebaseinitprovider" android:initOrder="100"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:theme="@style/Theme.Dialog" android:name="org.acra.dialog.CrashReportDialog" android:process=":acra" android:finishOnTaskLaunch="true" android:excludeFromRecents="true" android:launchMode="singleInstance"/>
+        <service android:name="org.acra.sender.SenderService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false" android:process=":acra"/>
+        <provider android:name="org.acra.attachment.AcraContentProvider" android:exported="false" android:process=":acra" android:authorities="com.thecrackertechnology.andrax.acra" android:grantUriPermissions="true"/>
+    </application>
+</manifest>

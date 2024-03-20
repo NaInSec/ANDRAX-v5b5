@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:padding="@dimen/text_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:id="@+id/dialog_edit_text_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:labelFor="@+id/dialog_edit_text_editor"/>
+    <EditText android:id="@+id/dialog_edit_text_editor" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1" android:inputType="text"/>
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:id="@+id/dialog_edit_text2_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:labelFor="@+id/dialog_edit_text2_editor"/>
+    <EditText android:id="@+id/dialog_edit_text2_editor" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1" android:inputType="text"/>
+</LinearLayout>

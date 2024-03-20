@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:theme="@style/ThemeOverlay.AppCompat.Dark" android:id="@+id/custom_toolbar" android:background="@color/colorPrimary" android:visibility="visible" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/custom_editor_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/text_margin" android:layout_marginBottom="@dimen/text_margin" android:layout_alignParentBottom="true" style="?attr/buttonBarStyle">
+        <RelativeLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/custom_editor_line_height">
+            <ImageButton android:id="@+id/custom_install_font_button" android:layout_width="@dimen/custom_install_icon_width" android:layout_height="@dimen/custom_editor_line_height" android:src="@drawable/ic_install_white_36" android:layout_alignParentEnd="true" style="?attr/buttonBarButtonStyle"/>
+            <TextView android:gravity="center" android:id="@+id/custom_font_text" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/pref_customization_font" android:layout_alignParentStart="true"/>
+            <Spinner android:id="@+id/custom_font_spinner" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/text_margin" android:layout_toStartOf="@+id/custom_install_font_button" android:layout_toEndOf="@+id/custom_font_text"/>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/custom_editor_line_height">
+            <ImageButton android:id="@+id/custom_install_color_button" android:layout_width="@dimen/custom_install_icon_width" android:layout_height="@dimen/custom_editor_line_height" android:src="@drawable/ic_install_white_36" android:layout_alignParentEnd="true" style="?attr/buttonBarButtonStyle"/>
+            <TextView android:gravity="center" android:id="@+id/custom_color_text" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/pref_customization_color_scheme" android:layout_alignParentStart="true"/>
+            <Spinner android:id="@+id/custom_color_spinner" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/text_margin" android:layout_toStartOf="@+id/custom_install_color_button" android:layout_toEndOf="@+id/custom_color_text"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/preview_layout_margin" android:layout_above="@+id/custom_editor_layout" android:layout_below="@+id/custom_toolbar">
+        <com.thecrackertechnology.dragonterminal.frontend.terminal.extrakey.ExtraKeysView android:orientation="horizontal" android:id="@+id/custom_extra_keys" android:background="@color/terminal_background" android:layout_width="match_parent" android:layout_height="@dimen/eks_height_two_line" android:layout_alignParentBottom="true" style="?android:attr/buttonBarStyle"/>
+        <com.thecrackertechnology.dragonterminal.frontend.terminal.TerminalView android:id="@+id/terminal_view" android:background="@color/terminal_background" android:focusable="false" android:focusableInTouchMode="false" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/custom_extra_keys" android:fadeScrollbars="true"/>
+    </RelativeLayout>
+</RelativeLayout>

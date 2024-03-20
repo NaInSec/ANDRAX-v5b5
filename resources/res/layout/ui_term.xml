@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.thecrackertechnology.dragonterminal.frontend.terminal.TerminalView android:id="@+id/terminal_view" android:background="@color/terminal_background" android:focusable="true" android:focusableInTouchMode="true" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/extra_keys" android:fadeScrollbars="true"/>
+    <com.thecrackertechnology.dragonterminal.frontend.terminal.extrakey.ExtraKeysView android:orientation="horizontal" android:id="@+id/extra_keys" android:background="@color/terminal_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="?android:attr/buttonBarStyle"/>
+</RelativeLayout>

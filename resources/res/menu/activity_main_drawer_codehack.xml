@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:title="Editor">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:icon="@drawable/file" android:id="@+id/nav_openfile" android:title="Open file"/>
+                <item android:icon="@drawable/fontsize" android:id="@+id/nav_fontsize" android:title="Font size"/>
+                <item android:icon="@drawable/highlight" android:id="@+id/nav_language" android:title="Language"/>
+                <item android:icon="@drawable/theme" android:id="@+id/nav_theme" android:title="Change theme"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Social">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:icon="@drawable/about" android:id="@+id/nav_about" android:title="About"/>
+            </group>
+        </menu>
+    </item>
+</menu>

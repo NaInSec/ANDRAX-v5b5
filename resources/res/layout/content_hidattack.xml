@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatImageView android:id="@+id/imageView_findmyhash" android:layout_width="match_parent" android:layout_height="230dp" android:layout_centerHorizontal="false" android:layout_centerVertical="true" app:srcCompat="@drawable/andrax_hid"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="15sp" android:typeface="serif" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/textView30" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="HID Attack for ANDRAX"/>
+                <TextView android:textStyle="bold" android:textColor="@color/colorAccent" android:id="@+id/textView32" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="Payload:"/>
+                <Spinner android:id="@+id/spinnerhid" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+                <TextView android:textStyle="bold" android:textColor="@color/colorAccent" android:id="@+id/textView33" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Edit Payloads:"/>
+                <EditText android:textColor="@color/colorPrimary" android:textColorHint="@color/bluedack" android:id="@+id/editTexthidargs" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:hint="http://myfuckingbackdooraddress.com" android:ems="10" android:inputType="textMultiLine"/>
+                <Button android:id="@+id/buttonhidstart" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="Start"/>
+                <Button android:id="@+id/buttonhidstop" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Stop"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

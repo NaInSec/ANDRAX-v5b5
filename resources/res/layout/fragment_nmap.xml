@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@android:color/background_dark" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/imageView4" android:layout_width="300dp" android:layout_height="200dp" android:layout_marginTop="20dp" android:scaleType="centerInside" app:srcCompat="@drawable/logonmap"/>
+            <TextView android:textAppearance="@style/TextAppearance.AppCompat.Large" android:typeface="serif" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/textView6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:text="Nmap - Network Mapper"/>
+            <TextView android:textStyle="bold" android:textColor="@color/colorAccent" android:id="@+id/textView7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="Host:"/>
+            <EditText android:textColor="@color/colorPrimary" android:textColorHint="@color/bluedack" android:id="@+id/editTexthostscan" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="www.google.com" android:ems="10" android:inputType="textPersonName"/>
+            <TextView android:textStyle="bold" android:textColor="@color/colorAccent" android:id="@+id/textView8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Scan Mode:"/>
+            <Spinner android:id="@+id/spinnernmap" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp"/>
+            <Switch android:id="@+id/switchstylesheet" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="STYLESHEET LOGGER"/>
+            <TextView android:textStyle="bold" android:textColor="@color/colorAccent" android:id="@+id/textView9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Scripts:"/>
+            <Switch android:id="@+id/SwitchVulners" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Vulners"/>
+            <Switch android:id="@+id/SwitchDNSbrute" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="DNS-Brute"/>
+            <Button android:textColor="@android:color/white" android:id="@+id/btnscan" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="Start SCAN"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

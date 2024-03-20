@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/imageView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" app:srcCompat="@drawable/webmythr"/>
+            <TextView android:textStyle="bold" android:textColor="@color/colorAccent" android:id="@+id/textView18" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="Site:" android:layout_below="@+id/imageView6"/>
+            <EditText android:textColor="@color/colorPrimary" android:textColorHint="@color/bluedack" android:id="@+id/editTextmainwebmythr" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="www.google.com" android:ems="10" android:layout_below="@+id/textView18" android:inputType="textPersonName"/>
+            <CheckBox android:textColor="@android:color/white" android:textColorHint="@color/colorAccent" android:id="@+id/checkBoxhttpswebmythr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="HTTPS" android:layout_below="@+id/editTextmainwebmythr" android:onClick="onCheckboxClicked" android:textAllCaps="true"/>
+            <TextView android:textStyle="bold" android:textColor="@color/colorAccent" android:id="@+id/textView19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="ATTACK Mode:" android:layout_below="@+id/checkBoxhttpswebmythr"/>
+            <Spinner android:id="@+id/spinnerwebmythrmode" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_below="@+id/textView19"/>
+            <Button android:id="@+id/buttonhackit" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="HACK it" android:layout_below="@+id/spinnerwebmythrmode"/>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

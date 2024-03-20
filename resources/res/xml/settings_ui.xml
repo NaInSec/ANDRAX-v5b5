@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <CheckBoxPreference android:title="@string/pref_ui_fullscreen" android:key="@string/key_ui_fullscreen" android:defaultValue="true"/>
+    <CheckBoxPreference android:title="@string/pref_ui_hide_toolbar" android:key="@string/key_ui_hide_toolbar" android:summary="@string/pref_ui_hide_toolbar_desc" android:defaultValue="true"/>
+    <CheckBoxPreference android:title="@string/pref_ui_close_tab_anim_next_tab" android:key="@string/key_ui_next_tab_anim" android:summary="@string/pref_ui_close_tab_anim_next_tab_desc" android:defaultValue="false"/>
+    <CheckBoxPreference android:title="@string/pref_ui_eks_enabled" android:key="@string/key_ui_eks_enabled" android:summary="@string/pref_ui_eks_enabled_desc" android:defaultValue="true"/>
+    <CheckBoxPreference android:title="@string/pref_ui_eks_weight_explicit" android:key="@string/key_ui_eks_weight_explicit" android:summary="@string/pref_ui_eks_weight_explicit_desc" android:defaultValue="false"/>
+</PreferenceScreen>

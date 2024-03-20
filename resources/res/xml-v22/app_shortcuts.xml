@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <shortcut android:icon="@drawable/ic_new_session" android:enabled="true" android:shortcutId="new_session" android:shortcutShortLabel="@string/new_session">
+        <intent android:targetPackage="com.thecrackertechnology.andrax" android:action="android.intent.action.RUN" android:targetClass="com.thecrackertechnology.dragonterminal.ui.term.NeoTermActivity"/>
+    </shortcut>
+    <shortcut android:icon="@drawable/recovery" android:enabled="true" android:shortcutId="recovery_session" android:shortcutShortLabel="@string/rec_short_desc">
+        <intent android:targetPackage="com.thecrackertechnology.andrax" android:action="android.intent.action.VIEW" android:targetClass="com.thecrackertechnology.dragonterminal.ui.term.NeoTermActivity">
+            <extra android:name="recfromshort" android:value="recfromshortcut"/>
+        </intent>
+    </shortcut>
+</shortcuts>

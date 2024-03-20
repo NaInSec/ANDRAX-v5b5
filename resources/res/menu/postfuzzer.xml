@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/play" android:id="@+id/startpostfuzzer" android:orderInCategory="1" android:title="Start" app:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/stop" android:id="@+id/stoppostfuzzer" android:orderInCategory="2" android:title="STOP" app:showAsAction="ifRoom"/>
+</menu>

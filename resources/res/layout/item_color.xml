@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:orientation="horizontal" android:background="?attr/selectableItemBackground" android:padding="@dimen/package_item_padding" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:layout_gravity="center" android:id="@+id/color_item_view" android:layout_width="@dimen/preview_layout_width" android:layout_height="@dimen/preview_layout_height"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/preview_layout_margin_small" android:layout_marginRight="@dimen/preview_layout_margin_small" android:layout_marginStart="@dimen/preview_layout_margin_small" android:layout_marginEnd="@dimen/preview_layout_margin_small">
+        <TextView android:textColor="@color/textColor" android:id="@+id/color_item_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/TextAppearance.AppCompat.Medium"/>
+        <TextView android:textColor="@color/textColorSecondary" android:id="@+id/color_item_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="3"/>
+    </LinearLayout>
+</LinearLayout>

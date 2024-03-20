@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:textColor="@color/colorAccent" android:id="@+id/textView27" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="OUTPUT:"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/textView27">
+                <include android:id="@+id/includedirscanner" android:layout_width="match_parent" layout="@layout/includedirscanner"/>
+                <TextView android:textStyle="bold" android:textColor="@color/colorAccent" android:id="@+id/textView31" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Exclude:"/>
+                <EditText android:textColor="@color/colorPrimary" android:textColorHint="@color/bluedack" android:id="@+id/editTextdirscannercode" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="404" android:ems="10" android:inputType="textPersonName"/>
+                <Button android:id="@+id/buttondirexcludecode" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="EXCLUDE CODE"/>
+                <TextView android:textColor="@color/colorPrimary" android:id="@+id/textViewdirresult02" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

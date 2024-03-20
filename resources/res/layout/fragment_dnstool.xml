@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@android:color/background_dark" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/imageView5" android:layout_width="match_parent" android:layout_height="200dp" android:layout_marginTop="20dp" android:scaleType="fitXY" app:srcCompat="@drawable/dnstool"/>
+            <TextView android:textAppearance="@style/TextAppearance.AppCompat.Large" android:typeface="serif" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/textView9" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="SSL-Cracker"/>
+            <TextView android:textStyle="bold" android:textColor="@color/colorAccent" android:id="@+id/textView10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="Interface:"/>
+            <EditText android:textColor="@color/colorPrimary" android:textColorHint="@color/bluedack" android:id="@+id/editinterface" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="wlan0" android:ems="10" android:inputType="textPersonName"/>
+            <TextView android:textStyle="bold" android:textColor="@color/colorAccent" android:id="@+id/textView11" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Domain:"/>
+            <EditText android:textColor="@color/colorPrimary" android:textColorHint="@color/bluedack" android:textColorLink="@color/colorPrimary" android:id="@+id/editdomain" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="www.google.com" android:ems="10" android:inputType="textPersonName"/>
+            <TextView android:textStyle="bold" android:textColor="@color/colorAccent" android:id="@+id/textView12" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Host"/>
+            <EditText android:textColor="@color/colorPrimary" android:textColorHint="@color/bluedack" android:id="@+id/edithost" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="192.168.0.1" android:ems="10" android:inputType="textPersonName"/>
+            <Button android:textColor="@android:color/white" android:textColorLink="@color/colorPrimary" android:id="@+id/btnsslcracker" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="SSL CRACK!"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

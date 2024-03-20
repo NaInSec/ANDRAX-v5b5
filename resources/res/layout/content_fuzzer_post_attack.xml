@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <WebView android:id="@+id/webviewcodeattack" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <TextView android:textStyle="bold" android:textColor="@color/colorAccent" android:id="@+id/textView26" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="Post page"/>
+                <EditText android:textColor="@color/colorPrimary" android:textColorHint="@color/bluedack" android:id="@+id/editTextpostpage" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="index.php" android:ems="10" android:inputType="textPersonName"/>
+                <TextView android:textStyle="bold" android:textColor="@color/colorAccent" android:id="@+id/textView20" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="POST to Fuzzer"/>
+                <EditText android:textColor="@color/colorPrimary" android:textColorHint="@color/bluedack" android:id="@+id/editTextpostattack" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="POST" android:ems="10" android:inputType="textPersonName"/>
+                <TextView android:textStyle="bold" android:textColor="@color/colorAccent" android:id="@+id/textView23" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Pattern to Fuzzer"/>
+                <EditText android:textColor="@color/colorPrimary" android:textColorHint="@color/bluedack" android:id="@+id/editTextpatternattack" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Pattern" android:ems="10" android:inputType="textPersonName"/>
+                <TextView android:textStyle="bold" android:textColor="@color/colorAccent" android:id="@+id/textView24" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Cookie"/>
+                <EditText android:textColor="@color/colorPrimary" android:textColorHint="@color/bluedack" android:id="@+id/editTextcookieattack" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Cookie" android:ems="10" android:inputType="textPersonName"/>
+                <TextView android:textStyle="bold" android:textColor="@color/colorAccent" android:id="@+id/textView25" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="User-Agent"/>
+                <Spinner android:id="@+id/spinneruseragentattack" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <Button android:id="@+id/buttonattackit" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="ATTACK"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

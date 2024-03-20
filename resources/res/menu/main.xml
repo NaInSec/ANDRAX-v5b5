@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@+id/action_manualdownload" android:orderInCategory="1" android:title="Manual Download" app:showAsAction="never"/>
+    <item android:id="@+id/action_main" android:orderInCategory="2" android:title="MAIN Screen" app:showAsAction="never"/>
+    <item android:id="@+id/action_contact" android:orderInCategory="3" android:title="Call Dev" app:showAsAction="never"/>
+    <item android:id="@+id/action_about" android:orderInCategory="4" android:title="About" app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:keyWidth="10%p" android:keyHeight="10%p" android:horizontalGap="0px" android:verticalGap="0px">
+    <Row>
+        <Key android:codes="100008" android:keyEdgeFlags="left" android:isRepeatable="true" android:keyLabel="!"/>
+        <Key android:codes="100009" android:isRepeatable="true" android:keyLabel="@"/>
+        <Key android:codes="100010" android:isRepeatable="true" android:keyLabel="#"/>
+        <Key android:codes="100011" android:isRepeatable="true" android:keyLabel="$"/>
+        <Key android:codes="100012" android:isRepeatable="true" android:keyLabel="%"/>
+        <Key android:codes="100013" android:isRepeatable="true" android:keyLabel="^"/>
+        <Key android:codes="100014" android:isRepeatable="true" android:keyLabel="&amp;"/>
+        <Key android:codes="100015" android:isRepeatable="true" android:keyLabel="*"/>
+        <Key android:codes="100016" android:isRepeatable="true" android:keyLabel="("/>
+        <Key android:codes="100007" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyLabel=")"/>
+    </Row>
+    <Row>
+        <Key android:codes="111" android:keyEdgeFlags="left" android:isRepeatable="true" android:keyLabel="Esc"/>
+        <Key android:codes="100068" android:isRepeatable="true" android:keyLabel="~"/>
+        <Key android:codes="100069" android:isRepeatable="true" android:keyLabel="_"/>
+        <Key android:codes="100070" android:isRepeatable="true" android:keyLabel="+"/>
+        <Key android:codes="100073" android:isRepeatable="true" android:keyLabel="|"/>
+        <Key android:codes="100075" android:isRepeatable="true" android:keyLabel="&quot;"/>
+        <Key android:codes="131" android:isRepeatable="true" android:keyLabel="F1"/>
+        <Key android:codes="132" android:isRepeatable="true" android:keyLabel="F2"/>
+        <Key android:codes="133" android:isRepeatable="true" android:keyLabel="F3"/>
+        <Key android:codes="134" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyLabel="F4"/>
+    </Row>
+    <Row>
+        <Key android:codes="-1" android:keyEdgeFlags="left" android:keyLabel="123…"/>
+        <Key android:codes="143" android:isSticky="true" android:keyLabel="NumLk"/>
+        <Key android:codes="120" android:isRepeatable="true" android:keyLabel="Print"/>
+        <Key android:codes="116" android:isRepeatable="true" android:keyLabel="ScrollLk"/>
+        <Key android:codes="121" android:isRepeatable="true" android:keyLabel="Pause"/>
+        <Key android:codes="158" android:isRepeatable="true" android:keyLabel="Kp ."/>
+        <Key android:codes="135" android:isRepeatable="true" android:keyLabel="F5"/>
+        <Key android:codes="136" android:isRepeatable="true" android:keyLabel="F6"/>
+        <Key android:codes="137" android:isRepeatable="true" android:keyLabel="F7"/>
+        <Key android:codes="138" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyLabel="F8"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-6" android:keyEdgeFlags="left" android:keyLabel="abc…"/>
+        <Key android:codes="154" android:isRepeatable="true" android:keyLabel="Kp /"/>
+        <Key android:codes="155" android:isRepeatable="true" android:keyLabel="Kp *"/>
+        <Key android:codes="156" android:isRepeatable="true" android:keyLabel="Kp -"/>
+        <Key android:codes="157" android:isRepeatable="true" android:keyLabel="Kp +"/>
+        <Key android:codes="160" android:isRepeatable="true" android:keyLabel="Kp ↵"/>
+        <Key android:codes="139" android:isRepeatable="true" android:keyLabel="F9"/>
+        <Key android:codes="140" android:isRepeatable="true" android:keyLabel="F10"/>
+        <Key android:codes="141" android:isRepeatable="true" android:keyLabel="F11"/>
+        <Key android:codes="142" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyLabel="F12"/>
+    </Row>
+</Keyboard>

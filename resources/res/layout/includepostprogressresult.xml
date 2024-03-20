@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="300dp">
+    <TextView android:textStyle="bold" android:textColor="@color/colorAccent" android:id="@+id/textView28" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="Fuzzer OUTPUT:"/>
+    <ScrollView android:id="@+id/scrollfuzzerresult02" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/textView28">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textColor="@color/colorPrimary" android:textColorHint="@color/colorAccent" android:id="@+id/textpostresult02" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:hint="Loading..."/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

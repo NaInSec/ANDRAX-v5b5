@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:title="ANDRAX Tools">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:icon="@drawable/console" android:id="@+id/nav_terminal" android:title="Dragon Terminal"/>
+                <item android:icon="@drawable/abernathy" android:id="@+id/nav_abernathy" android:title="AbernathY-XSS"/>
+                <item android:icon="@drawable/marina" android:id="@+id/nav_marina" android:title="M.A.R.I.N.A"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Information Gathering">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_arping" android:title="Arping"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_thcping6" android:title="THCPing6"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_netdiscover" android:title="Netdiscover"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_inverselookup6" android:title="Inverse_lookup6"/>
+                <item android:icon="@drawable/hping" android:id="@+id/nav_hping" android:title="Hping3"/>
+                <item android:icon="@drawable/nping" android:id="@+id/nav_nping" android:title="Nping"/>
+                <item android:icon="@drawable/whois" android:id="@+id/nav_whois" android:title="WHOIS"/>
+                <item android:icon="@drawable/dig" android:id="@+id/nav_dig" android:title="DIG"/>
+                <item android:icon="@drawable/katana" android:id="@+id/nav_katanads" android:title="Katana-DS"/>
+                <item android:icon="@drawable/bing" android:id="@+id/nav_bingip2hosts" android:title="Bing-IP2Hosts"/>
+                <item android:icon="@drawable/evilgoogle" android:id="@+id/nav_atscan" android:title="AtScan"/>
+                <item android:icon="@drawable/cloudflare" android:id="@+id/nav_cloudfail" android:title="CloudFail"/>
+                <item android:icon="@drawable/cloudflare" android:id="@+id/nav_cloudmare" android:title="CloudMare"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_dnsmap" android:title="DNSMap"/>
+                <item android:icon="@drawable/dnsrecon" android:id="@+id/nav_dnsrecon" android:title="DNS-RECON"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_fierce" android:title="Fierce"/>
+                <item android:icon="@drawable/owasp" android:id="@+id/nav_amass" android:title="OWASP AMASS"/>
+                <item android:icon="@drawable/owasp" android:id="@+id/nav_maryam" android:title="OWASP Maryam"/>
+                <item android:icon="@drawable/maltego" android:id="@+id/nav_maltego" android:title="Maltego"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_dnsdict6" android:title="DNSDict6"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_dnsenum" android:title="Dnsenum"/>
+                <item android:icon="@drawable/shuffledns" android:id="@+id/nav_shuffledns" android:title="ShuffleDNS"/>
+                <item android:icon="@drawable/dns" android:id="@+id/nav_massdns" android:title="MassDNS"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_sublist3r" android:title="Sublist3r"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_trace6" android:title="Trace6"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_0trace" android:title="0trace"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_intrace" android:title="Intrace"/>
+                <item android:icon="@drawable/firewalk" android:id="@+id/nav_firewalk" android:title="Firewalk"/>
+                <item android:icon="@drawable/loadbalance" android:id="@+id/nav_lbd" android:title="lbd"/>
+                <item android:icon="@drawable/dmitry" android:id="@+id/nav_dmitry" android:title="Dmitry"/>
+                <item android:icon="@drawable/raccoon" android:id="@+id/nav_raccoon" android:title="RACCOON"/>
+                <item android:icon="@drawable/pwned" android:id="@+id/nav_pwnedornot" android:title="PWNedOrNot"/>
+                <item android:icon="@drawable/theharvester" android:id="@+id/nav_theharvester" android:title="TheHarvester"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_buster" android:title="Buster"/>
+                <item android:icon="@drawable/chamaleon" android:id="@+id/nav_chameleon" android:title="Chameleon"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_tldscanner" android:title="TLD_Scanner"/>
+                <item android:icon="@drawable/xray" android:id="@+id/nav_xray" android:title="X-RAY"/>
+                <item android:icon="@drawable/redhawk" android:id="@+id/nav_redhawk" android:title="RED-HAWK"/>
+                <item android:icon="@drawable/vault" android:id="@+id/nav_vault" android:title="VAULT"/>
+                <item android:icon="@drawable/smtp" android:id="@+id/nav_smtpuserenum" android:title="SMTP-User-Enum"/>
+                <item android:icon="@drawable/smtp" android:id="@+id/nav_ismtp" android:title="iSMTP"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_braa" android:title="Braa"/>
+                <item android:icon="@drawable/snmp" android:id="@+id/nav_onesixtyone" android:title="Onesixtyone"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_snmpwn" android:title="SNMPwn"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Scanning">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:icon="@drawable/eye" android:id="@+id/nav_nmap" android:title="Nmap"/>
+                <item android:icon="@drawable/masscan" android:id="@+id/nav_masscan" android:title="MASSCAN"/>
+                <item android:icon="@drawable/upnp" android:id="@+id/nav_upnpscan" android:title="UPnP-Scan"/>
+                <item android:icon="@drawable/hikvision" android:id="@+id/nav_hikpwn" android:title="HikPWN"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_nbtscan" android:title="NBTScan"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_ikescan" android:title="IKE-Scan"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_pysslscan" android:title="pySSLScan"/>
+                <item android:icon="@drawable/sslscan" android:id="@+id/nav_sslscan" android:title="SSLSCAN"/>
+                <item android:icon="@drawable/reconspider" android:id="@+id/nav_reconspider" android:title="ReconSpider"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_ssh_auditor" android:title="SSH-Auditor"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="PACKET Crafting">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:icon="@drawable/professional_hexagon" android:id="@+id/nav_hexinject" android:title="HexInject"/>
+                <item android:icon="@drawable/ncat" android:id="@+id/nav_ncat" android:title="NCAT"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_fragmentation6" android:title="Fragmentation6"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_nemesis" android:title="NEMESIS"/>
+                <item android:icon="@drawable/scapy3k" android:id="@+id/nav_scapy" android:title="Scapy"/>
+                <item android:icon="@drawable/application" android:id="@+id/nav_netcat" android:title="Netcat"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Network Hacking">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:icon="@drawable/ipaddress" android:id="@+id/nav_ipcalc" android:title="IPCalc"/>
+                <item android:icon="@drawable/netmask" android:id="@+id/nav_netmask" android:title="Netmask"/>
+                <item android:icon="@drawable/yersinia" android:id="@+id/nav_yersinia" android:title="Yersinia"/>
+                <item android:icon="@drawable/upnp" android:id="@+id/nav_miranda" android:title="MIRANDA"/>
+                <item android:icon="@drawable/upnp" android:id="@+id/nav_upnptools" android:title="UPnP-Tools"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_bgpcli" android:title="BGP-Cli"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_eigrpcli" android:title="EIGRP Cli"/>
+                <item android:icon="@drawable/sdn" android:id="@+id/nav_sdnpwn" android:title="SDNPWN"/>
+                <item android:icon="@drawable/cisco" android:id="@+id/nav_camscan" android:title="CAMScan"/>
+                <item android:icon="@drawable/cisco" android:id="@+id/nav_cdpsnarf" android:title="CDPSnarf"/>
+                <item android:icon="@drawable/delorean" android:id="@+id/nav_delorean" android:title="Delorean"/>
+                <item android:icon="@drawable/bettercap" android:id="@+id/nav_bettercap" android:title="Bettercap"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_smbmap" android:title="SMBMap"/>
+                <item android:icon="@drawable/poison" android:id="@+id/nav_responder" android:title="Responder"/>
+                <item android:icon="@drawable/ldap" android:id="@+id/nav_ldapdomaindump" android:title="LDAPDomainDUMP"/>
+                <item android:icon="@drawable/socat" android:id="@+id/nav_socat" android:title="SOCAT"/>
+                <item android:icon="@drawable/dns" android:id="@+id/nav_dnschef" android:title="DNSChef"/>
+                <item android:icon="@drawable/dns" android:id="@+id/nav_dns2proxy" android:title="DNS2Proxy"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_dns2tcp" android:title="DNS2Tcp"/>
+                <item android:icon="@drawable/poison" android:id="@+id/nav_godoh" android:title="GODOH"/>
+                <item android:icon="@drawable/tunnel" android:id="@+id/nav_chisel" android:title="Chisel"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_udp2raw" android:title="Udp2raw"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_fiked" android:title="Fiked"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_dhcping" android:title="Dhcping"/>
+                <item android:icon="@drawable/account_network" android:id="@+id/nav_arpspoof" android:title="ARPSpoof"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_implementation6" android:title="Implementation6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_parasite6" android:title="Parasite6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_redir6" android:title="Redir6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_smurf6" android:title="Smurf6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_detectsniffer6" android:title="Detect_sniffer6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_killrouter6" android:title="Kill_router6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_fakeadvertise6" android:title="Fake_advertise6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_fakedhcps6" android:title="Fake_dhcps6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_fakedns6d" android:title="Fake_dns6d"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_fakednsupdate6" android:title="Fake_dnsupdate6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_fakemld6" android:title="Fake_mld6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_fakemld26" android:title="Fake_mld26"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_fakemldrouter6" android:title="Fake_mldrouter6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_fakerouter6" android:title="Fake_router6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_fakerouter26" android:title="Fake_router26"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_fakesolicitate6" android:title="Fake_solicitate6"/>
+                <item android:icon="@drawable/ethernet" android:id="@+id/nav_tcpdump" android:title="TCPDUMP"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="WebSite Hacking">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:icon="@drawable/waf" android:id="@+id/nav_wafninja" android:title="WAFNinja"/>
+                <item android:icon="@drawable/waf" android:id="@+id/nav_wafw00f" android:title="WAFw00f"/>
+                <item android:icon="@drawable/httpx" android:id="@+id/nav_httpx" android:title="HTTPX"/>
+                <item android:icon="@drawable/jaeles" android:id="@+id/nav_jaeles" android:title="Jaeles"/>
+                <item android:icon="@drawable/nuclei" android:id="@+id/nav_nuclei" android:title="Nuclei"/>
+                <item android:icon="@drawable/nikto" android:id="@+id/nav_nikto" android:title="Nikto"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_uniscan" android:title="Uniscan"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_httrack" android:title="Httrack"/>
+                <item android:icon="@drawable/mitmproxy" android:id="@+id/nav_mitmproxy" android:title="MITMPROXY"/>
+                <item android:icon="@drawable/zap" android:id="@+id/nav_zap" android:title="OWASP ZAP"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_httptools" android:title="HTTP-Tools"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_cmseek" android:title="CMSeek"/>
+                <item android:icon="@drawable/vulnx" android:id="@+id/nav_vulnx" android:title="Vulnx"/>
+                <item android:icon="@drawable/fingerprinter" android:id="@+id/nav_fingerprinter" android:title="Fingerprinter"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_cadaver" android:title="Cadaver"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_sitebroker" android:title="SiteBroker"/>
+                <item android:icon="@drawable/wfuzz" android:id="@+id/nav_wfuzz" android:title="Wfuzz"/>
+                <item android:icon="@drawable/odin" android:id="@+id/nav_odin" android:title="0d1n"/>
+                <item android:icon="@drawable/dotdotpwn" android:id="@+id/nav_dotdotpwn" android:title="DotDotPWN"/>
+                <item android:icon="@drawable/xsser" android:id="@+id/nav_xsser" android:title="XSSer"/>
+                <item android:icon="@drawable/xsstrike" android:id="@+id/nav_xsstrike" android:title="XSSTRIKE"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_xanxss" android:title="XANXSS"/>
+                <item android:icon="@drawable/xspear" android:id="@+id/nav_xspear" android:title="XSpear"/>
+                <item android:icon="@drawable/imagejs" android:id="@+id/nav_imagejs" android:title="ImageJS"/>
+                <item android:icon="@drawable/payloadmask" android:id="@+id/nav_payloadmask" android:title="Payloadmask"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_xsrfprobe" android:title="XSRFprobe"/>
+                <item android:icon="@drawable/phpsploit" android:id="@+id/nav_phpsploit" android:title="PHPSploit"/>
+                <item android:icon="@drawable/nodejshack" android:id="@+id/nav_nodexp" android:title="NodeXP"/>
+                <item android:icon="@drawable/xxe" android:id="@+id/nav_xxeenum" android:title="XXE Enum"/>
+                <item android:icon="@drawable/xxe" android:id="@+id/nav_xxeinjector" android:title="XXEInjector"/>
+                <item android:icon="@drawable/xxe" android:id="@+id/nav_xxexploiter" android:title="XXExploiter"/>
+                <item android:icon="@drawable/xxe" android:id="@+id/nav_xxetimes" android:title="XXETimes"/>
+                <item android:icon="@drawable/commix" android:id="@+id/nav_commix" android:title="Commix"/>
+                <item android:icon="@drawable/sqlmap" android:id="@+id/nav_sqlmap" android:title="Sqlmap"/>
+                <item android:icon="@drawable/bbqsql" android:id="@+id/nav_bbqsql" android:title="BBQSQL"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_put2win" android:title="Put2win"/>
+                <item android:icon="@drawable/photon" android:id="@+id/nav_photon" android:title="Photon"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_pyfilebuster" android:title="pyFileBuster"/>
+                <item android:icon="@drawable/adminfind" android:id="@+id/nav_adfind" android:title="ADFind"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_dirb" android:title="Dirb"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_whatweb" android:title="WhatWeb"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_wascan" android:title="WAScan"/>
+                <item android:icon="@drawable/wordpress" android:id="@+id/nav_wpscan" android:title="WPScan"/>
+                <item android:icon="@drawable/wordpress" android:id="@+id/nav_wpseku" android:title="WPSeku"/>
+                <item android:icon="@drawable/wpxf" android:id="@+id/nav_wpxf" android:title="WPXF"/>
+                <item android:icon="@drawable/wordpress" android:id="@+id/nav_wpforce" android:title="WPforce"/>
+                <item android:icon="@drawable/wordpress" android:id="@+id/nav_yertle" android:title="Yertle"/>
+                <item android:icon="@drawable/joomla" android:id="@+id/nav_joomlavs" android:title="JoomlaVS"/>
+                <item android:icon="@drawable/wapiti" android:id="@+id/nav_wapiti" android:title="Wapiti"/>
+                <item android:icon="@drawable/recon_ng" android:id="@+id/nav_reconng" android:title="Recon-NG"/>
+                <item android:icon="@drawable/cloudsploit" android:id="@+id/nav_cloudsploit" android:title="CloudSploit"/>
+                <item android:icon="@drawable/golismero" android:id="@+id/nav_golismero" android:title="Golismero"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_hsecscan" android:title="HSECScan"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_hhh" android:title="HHH"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_uatester" android:title="UA-Tester"/>
+                <item android:icon="@drawable/hamster" android:id="@+id/nav_hamster" android:title="Hamster"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_clusterd" android:title="Clusterd"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_evilurl" android:title="EVILUrl"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_crlfinjector" android:title="CRLF-Injector"/>
+                <item android:icon="@drawable/injection" android:id="@+id/nav_injectus" android:title="Injectus"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_aron" android:title="Aron"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_arjun" android:title="Arjun"/>
+                <item android:icon="@drawable/fiesta" android:id="@+id/nav_fiesta" android:title="Fiesta"/>
+                <item android:icon="@drawable/jwtcrack" android:id="@+id/nav_jwtcrack" android:title="JWT-Crack"/>
+                <item android:icon="@drawable/jwtcrack" android:id="@+id/nav_jwt_tool" android:title="JWT_TOOL"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Password Hacking">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:icon="@drawable/wordgenerator" android:id="@+id/nav_maskprocessor" android:title="MaskProcessor"/>
+                <item android:icon="@drawable/word" android:id="@+id/nav_crunch" android:title="CRUNCH"/>
+                <item android:icon="@drawable/cewl" android:id="@+id/nav_cewl" android:title="CeWL"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_bopscrk" android:title="Bopscrk"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_cr3d0v3r" android:title="Cr3d0v3r"/>
+                <item android:icon="@drawable/unlocked" android:id="@+id/nav_hashboy" android:title="HASHBoy"/>
+                <item android:icon="@drawable/ncrack" android:id="@+id/nav_ncrack" android:title="Ncrack"/>
+                <item android:icon="@drawable/hydra" android:id="@+id/nav_hydra" android:title="Hydra"/>
+                <item android:icon="@drawable/jtr" android:id="@+id/nav_john" android:title="John The Ripper"/>
+                <item android:icon="@drawable/cisco" android:id="@+id/nav_ciscopwdecrypt" android:title="CISCO_PWDecrypt"/>
+                <item android:icon="@drawable/hashcat" android:id="@+id/nav_hashcat" android:title="HASHCAT"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_pskcrack" android:title="PSK-Crack"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_acccheck" android:title="Acccheck"/>
+                <item android:icon="@drawable/massh" android:id="@+id/nav_massh_enum" android:title="Massh-enum"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Wireless">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:icon="@drawable/eaphammer" android:id="@+id/nav_eaphammer" android:title="EAPHammer"/>
+                <item android:icon="@drawable/hotspot" android:id="@+id/nav_hostapd" android:title="HostAPD"/>
+                <item android:icon="@drawable/wireless" android:id="@+id/nav_hcxdumptool" android:title="HCXDumpTool"/>
+                <item android:icon="@drawable/wireless" android:id="@+id/nav_wifitap" android:title="WiFi-Tap"/>
+                <item android:icon="@drawable/wireless" android:id="@+id/nav_wifiarp" android:title="WiFi-Arp"/>
+                <item android:icon="@drawable/wireless" android:id="@+id/nav_wifidns" android:title="WiFi-DNS"/>
+                <item android:icon="@drawable/wireless" android:id="@+id/nav_wifiping" android:title="WiFi-Ping"/>
+                <item android:icon="@drawable/wifi" android:id="@+id/nav_aircrack" android:title="Aircrack-ng"/>
+                <item android:icon="@drawable/cowpatty" android:id="@+id/nav_cowpatty" android:title="Cowpatty"/>
+                <item android:icon="@drawable/wifi_off" android:id="@+id/nav_mdk3" android:title="MDK3"/>
+                <item android:icon="@drawable/wifi_off" android:id="@+id/nav_mdk4" android:title="MDK4"/>
+                <item android:icon="@drawable/wifi" android:id="@+id/nav_bully" android:title="BULLY"/>
+                <item android:icon="@drawable/wifi" android:id="@+id/nav_reaver" android:title="Reaver"/>
+                <item android:icon="@drawable/wifi" android:id="@+id/nav_wash" android:title="Wash"/>
+                <item android:icon="@drawable/hotspot" android:id="@+id/nav_pixiewps" android:title="PixieWPS"/>
+                <item android:icon="@drawable/hotspot" android:id="@+id/nav_wifite2" android:title="Wifite2"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_eapmd5pass" android:title="EAP-MD5-Pass"/>
+                <item android:icon="@drawable/bluetooth" android:id="@+id/nav_hciconfig" android:title="HCIConfig"/>
+                <item android:icon="@drawable/bluetooth" android:id="@+id/nav_bluetoothctl" android:title="Bluetoothctl"/>
+                <item android:icon="@drawable/bluetooth" android:id="@+id/nav_gatttool" android:title="GATTTool"/>
+                <item android:icon="@drawable/bluetooth" android:id="@+id/nav_bluesnarfer" android:title="BLUESnarfer"/>
+                <item android:icon="@drawable/bluetooth" android:id="@+id/nav_blescan" android:title="BLEScan"/>
+                <item android:icon="@drawable/bluetooth" android:id="@+id/nav_btlejack" android:title="BTLEJack"/>
+                <item android:icon="@drawable/bluetooth" android:id="@+id/nav_btscanner" android:title="BTScanner"/>
+                <item android:icon="@drawable/bluetooth" android:id="@+id/nav_crackle" android:title="CrackLE"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Exploitation">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:icon="@drawable/metasploit" android:id="@+id/nav_metasploit" android:title="MetaSploit Framework"/>
+                <item android:icon="@drawable/crackmapexec" android:id="@+id/nav_crackmapexec" android:title="CrackMapExec"/>
+                <item android:icon="@drawable/ninja" android:id="@+id/nav_ninjac2" android:title="NinjaC2"/>
+                <item android:icon="@drawable/amber" android:id="@+id/nav_amber" android:title="Amber"/>
+                <item android:icon="@drawable/cminer" android:id="@+id/nav_cminer" android:title="Cminer"/>
+                <item android:icon="@drawable/decoder" android:id="@+id/nav_sgn" android:title="SGN"/>
+                <item android:icon="@drawable/powershell" android:id="@+id/nav_powershell" android:title="PowerShell"/>
+                <item android:icon="@drawable/empire" android:id="@+id/nav_empire" android:title="Empire"/>
+                <item android:icon="@drawable/powershell" android:id="@+id/nav_backoori" android:title="Backoori"/>
+                <item android:icon="@drawable/autordpwn" android:id="@+id/nav_autordpwn" android:title="AutoRDPwn"/>
+                <item android:icon="@drawable/evilssdp" android:id="@+id/nav_evilssdp" android:title="Evil_SSDP"/>
+                <item android:icon="@drawable/routersploit" android:id="@+id/nav_routersploit" android:title="RouterSploit"/>
+                <item android:icon="@drawable/upnp" android:id="@+id/nav_upnpexploiter" android:title="UPnP-Exploiter"/>
+                <item android:icon="@drawable/upnp" android:id="@+id/nav_callstranger" android:title="Call-Stranger"/>
+                <item android:icon="@drawable/mikrotik_routeros" android:id="@+id/nav_mikrotaker" android:title="MikroTaker"/>
+                <item android:icon="@drawable/pacu" android:id="@+id/nav_pacu" android:title="PACU"/>
+                <item android:icon="@drawable/barq" android:id="@+id/nav_barq" android:title="BARQ"/>
+                <item android:icon="@drawable/qrgen" android:id="@+id/nav_qrgen" android:title="QRGen"/>
+                <item android:icon="@drawable/qrljacking" android:id="@+id/nav_qrljacker" android:title="QrlJacker"/>
+                <item android:icon="@drawable/printer" android:id="@+id/nav_pret" android:title="Pret"/>
+                <item android:icon="@drawable/pwndrop" android:id="@+id/nav_pwndrop" android:title="PWNDrop"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_pocsuite" android:title="POCSuite"/>
+                <item android:icon="@drawable/docem" android:id="@+id/nav_docem" android:title="DOCem"/>
+                <item android:icon="@drawable/singularity" android:id="@+id/nav_singularity" android:title="Singularity"/>
+                <item android:icon="@drawable/spysteal" android:id="@+id/nav_dnsteal" android:title="DNSteal"/>
+                <item android:icon="@drawable/cantoolz" android:id="@+id/nav_cantoolz" android:title="CANToolZ"/>
+                <item android:icon="@drawable/fuzzer" android:id="@+id/nav_sfuzz" android:title="Sfuzz"/>
+                <item android:icon="@drawable/fuzzer" android:id="@+id/nav_doona" android:title="Doona"/>
+                <item android:icon="@drawable/fuzzer" android:id="@+id/nav_aflfuzz" android:title="Afl-fuzz"/>
+                <item android:icon="@drawable/fuzzer" android:id="@+id/nav_dizzy" android:title="Dizzy"/>
+                <item android:icon="@drawable/brakeman" android:id="@+id/nav_brakeman" android:title="Brakeman"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_shellver" android:title="SHELLVer"/>
+                <item android:icon="@drawable/zsc" android:id="@+id/nav_zsc" android:title="OWASP zsc"/>
+                <item android:icon="@drawable/lightning" android:id="@+id/nav_oneliner" android:title="ONE-Lin3r"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_sharpshooter" android:title="SharpShooter"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_smap" android:title="SMAP"/>
+                <item android:icon="@drawable/binwalk" android:id="@+id/nav_binwalk" android:title="Binwalk"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_encdecshellcode" android:title="EncDecShellCode"/>
+                <item android:icon="@drawable/obfuscator" android:id="@+id/nav_javascriptobfuscator" android:title="Javascript-Obfuscator"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_makepdfjavascript" android:title="Make-PDF-JavaScript"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_makepdfembedded" android:title="Make-PDF-Embedded"/>
+                <item android:icon="@drawable/roptool" android:id="@+id/nav_roptool" android:title="ROP-Tool"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_autosploit" android:title="AutoSploit"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_hwacha" android:title="Hwacha"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_shellpop" android:title="SHELLPop"/>
+                <item android:icon="@drawable/swf" android:id="@+id/nav_flasm" android:title="Flasm"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_gdog" android:title="GDOG"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_mcreator" android:title="MCREATOR"/>
+                <item android:icon="@drawable/cameradar" android:id="@+id/nav_cameradar" android:title="Cameradar"/>
+                <item android:icon="@drawable/pytbull" android:id="@+id/nav_pytbull" android:title="PytBULL"/>
+                <item android:icon="@drawable/radare" android:id="@+id/nav_radare2" android:title="Radare2"/>
+                <item android:icon="@drawable/java" android:id="@+id/nav_cfr" android:title="CFR"/>
+                <item android:icon="@drawable/apktool" android:id="@+id/nav_apktool" android:title="APK-Tool"/>
+                <item android:icon="@drawable/java" android:id="@+id/nav_dex2jar" android:title="Dex2Jar"/>
+                <item android:icon="@drawable/metasploit" android:id="@+id/nav_msfvenom" android:title="Msfvenom"/>
+                <item android:icon="@drawable/metasploit" android:id="@+id/nav_metasmshell" android:title="METASM Shell"/>
+                <item android:icon="@drawable/metasploit" android:id="@+id/nav_patterncreator" android:title="Pattern Create"/>
+                <item android:icon="@drawable/metasploit" android:id="@+id/nav_patternoffset" android:title="Pattern Offset"/>
+                <item android:icon="@drawable/metasploit" android:id="@+id/nav_egghunter" android:title="EGG-Hunter"/>
+                <item android:icon="@drawable/metasploit" android:id="@+id/nav_find_badchars" android:title="Find Badchars"/>
+                <item android:icon="@drawable/metasploit" android:id="@+id/nav_msfbinscan" android:title="MSFBinScan"/>
+                <item android:icon="@drawable/metasploit" android:id="@+id/nav_msfelfscan" android:title="MSFElfScan"/>
+                <item android:icon="@drawable/metasploit" android:id="@+id/nav_msfpescan" android:title="MSFPeScan"/>
+                <item android:icon="@drawable/metasploit" android:id="@+id/nav_msfmachscan" android:title="MSFMachScan"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Stress Testing">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:icon="@drawable/impulse" android:id="@+id/nav_impulse" android:title="Impulse"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_fuzzip6" android:title="Fuzz_ip6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_denial6" android:title="Denial6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_flooddhcpc6" android:title="Flood_dhcpc6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_floodadvertise6" android:title="Flood_advertise6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_floodmld6" android:title="Flood_mld6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_floodmld26" android:title="Flood_mld26"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_floodmldrouter6" android:title="Flood_mldrouter6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_floodredir6" android:title="Flood_redir6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_floodrouter6" android:title="Flood_router6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_floodrouter26" android:title="Flood_router26"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_floodrs6" android:title="Flood_rs6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_floodsolicitate6" android:title="Flood_solicitate6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_floodunreach6" android:title="Flood_unreach6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_rsmurf6" android:title="Rsmurf6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_dosnewip6" android:title="Dos-new-ip6"/>
+                <item android:icon="@drawable/thehackerschoice" android:id="@+id/nav_randicmp6" android:title="Randicmp6"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_slowhttptest" android:title="Slowhttptest"/>
+                <item android:icon="@drawable/slowloris" android:id="@+id/nav_slowloris" android:title="Slowloris"/>
+                <item android:icon="@drawable/ddos" android:id="@+id/nav_goldeneye" android:title="GoldenEyE"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Phishing">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:icon="@drawable/shellphish" android:id="@+id/nav_shellphish" android:title="Shellphish"/>
+                <item android:icon="@drawable/gophish" android:id="@+id/nav_gophish" android:title="GOPhish"/>
+                <item android:icon="@drawable/evilginx2" android:id="@+id/nav_evilginx2" android:title="EVILginx2"/>
+                <item android:icon="@drawable/phishing" android:id="@+id/nav_modlishka" android:title="Modlishka"/>
+                <item android:icon="@drawable/urlcrazy" android:id="@+id/nav_urlcrazy" android:title="URLCrazy"/>
+                <item android:icon="@drawable/antiphishing" android:id="@+id/nav_dnstwist" android:title="DNSTwist"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Voip/3G/4G/UMTS/LTE">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:icon="@drawable/lte" android:id="@+id/nav_enodeb" android:title="eNodeB"/>
+                <item android:icon="@drawable/lte" android:id="@+id/nav_mmeenodeb" android:title="MME-eNodeB"/>
+                <item android:icon="@drawable/cellphonetower" android:id="@+id/nav_pgw" android:title="PGW"/>
+                <item android:icon="@drawable/diametertower" android:id="@+id/nav_diameterenum" android:title="Diameter-Enum"/>
+                <item android:icon="@drawable/diametertower" android:id="@+id/nav_s1apenum" android:title="S1AP-Enum"/>
+                <item android:icon="@drawable/diametertower" android:id="@+id/nav_gtpscan" android:title="GTP-Scan"/>
+                <item android:icon="@drawable/cryptomobile" android:id="@+id/nav_cryptomobile" android:title="CryptoMobile"/>
+                <item android:icon="@drawable/cellphonetower" android:id="@+id/nav_sgw" android:title="SGW"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_enumiax" android:title="Enumiax"/>
+                <item android:icon="@drawable/sipvicious" android:id="@+id/nav_svmap" android:title="SVMap"/>
+                <item android:icon="@drawable/sip" android:id="@+id/nav_isip" android:title="iSIP"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_sipsak" android:title="Sipsak"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_vsaudit" android:title="VSaudit"/>
+                <item android:icon="@drawable/sip" android:id="@+id/nav_protostestsuite" android:title="PROTOS Test Suite"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_iaxflood" android:title="Iaxflood"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_inviteflood" android:title="Inviteflood"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_rtpflood" android:title="Rtpflood"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_udpfloodVLAN" android:title="UDPFloodVLAN"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_rtpbreak" android:title="Rtpbreak"/>
+                <item android:icon="@drawable/sip" android:id="@+id/nav_sipcracker" android:title="SipCRACKER"/>
+                <item android:icon="@drawable/andraxicon_svg" android:id="@+id/nav_rtpinsertsound" android:title="Rtpinsertsound"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="ICS/SCADA/IIoT/IoT">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:icon="@drawable/plc" android:id="@+id/nav_plcscan" android:title="PLCScan"/>
+                <item android:icon="@drawable/plc" android:id="@+id/nav_s7scan" android:title="S7Scan"/>
+                <item android:icon="@drawable/modbus" android:id="@+id/nav_modscan" android:title="MODScan"/>
+                <item android:icon="@drawable/modbus" android:id="@+id/nav_mbtget" android:title="MBTGET"/>
+                <item android:icon="@drawable/modbus" android:id="@+id/nav_smod" android:title="SMOD"/>
+                <item android:icon="@drawable/ics" android:id="@+id/nav_isaf" android:title="ISAF"/>
+                <item android:icon="@drawable/ics" android:id="@+id/nav_isf" android:title="ICSSPLOIT"/>
+                <item android:icon="@drawable/iot" android:id="@+id/nav_expliot" android:title="eXplIOT"/>
+                <item android:icon="@drawable/sixnet" android:id="@+id/nav_sixnettools" android:title="SIXNET-Tools"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Mainframes">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:icon="@drawable/mainframe" android:id="@+id/nav_tpxbrute" android:title="TPX_Brute"/>
+                <item android:icon="@drawable/cics" android:id="@+id/nav_cicspwn" android:title="CICSPWN"/>
+                <item android:icon="@drawable/cics" android:id="@+id/nav_cicsshot" android:title="CICSSHOT"/>
+                <item android:icon="@drawable/mainframe" android:id="@+id/nav_netEBCDICat" android:title="netEBCDICat"/>
+                <item android:icon="@drawable/mainframe" android:id="@+id/nav_TShOcker" android:title="TShOcker"/>
+                <item android:icon="@drawable/mainframe" android:id="@+id/nav_phatso" android:title="PhaTSO"/>
+                <item android:icon="@drawable/mainframe" android:id="@+id/nav_mfsniffer" android:title="MFSniffer"/>
+                <item android:icon="@drawable/mainframe" android:id="@+id/nav_psikotik" android:title="PSIKOTIK"/>
+                <item android:icon="@drawable/mainframe" android:id="@+id/nav_birp" android:title="BIRP"/>
+                <item android:icon="@drawable/mainframe" android:id="@+id/nav_maintp" android:title="MainTP"/>
+                <item android:icon="@drawable/mainframe" android:id="@+id/nav_mainframe_bruter" android:title="Mainframe_Bruter"/>
+                <item android:icon="@drawable/mainframe" android:id="@+id/nav_mfdos" android:title="MFDoS"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Programming">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:icon="@drawable/c" android:id="@+id/nav_c_c_plus_plus" android:title="C/C++"/>
+                <item android:icon="@drawable/go" android:id="@+id/nav_go" android:title="Go"/>
+                <item android:icon="@drawable/ruby" android:id="@+id/nav_ruby" android:title="Ruby"/>
+                <item android:icon="@drawable/java" android:id="@+id/nav_java" android:title="Java"/>
+                <item android:icon="@drawable/perl" android:id="@+id/nav_perl" android:title="Perl"/>
+                <item android:icon="@drawable/nodejs" android:id="@+id/nav_nodejs" android:title="NodeJS"/>
+                <item android:icon="@drawable/python" android:id="@+id/nav_python" android:title="Python"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Anonymity">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:icon="@drawable/tor" android:id="@+id/nav_orbot" android:title="Orbot (TOR)"/>
+                <item android:icon="@drawable/torbrowser" android:id="@+id/nav_torbrowser" android:title="TorBrowser"/>
+            </group>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@+id/includeprogressresult" layout="@layout/includepostprogressresult"/>
+            <TextView android:textColor="@color/colorAccent" android:id="@+id/textView29" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Sort by pattern:"/>
+            <EditText android:textColor="@color/colorPrimary" android:textColorHint="@color/bluedack" android:id="@+id/editTextpostoutputbytes" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Bytes [ 295 ]" android:ems="10" android:inputType="textPersonName"/>
+            <Button android:id="@+id/buttonpostmatch" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Get POST Match"/>
+            <TextView android:textStyle="bold" android:textColor="@color/colorPrimary" android:id="@+id/textviewhackedpost" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

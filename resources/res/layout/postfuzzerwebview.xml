@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textStyle="bold" android:textColor="@color/colorAccent" android:id="@+id/textView21" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="Site VIEWER:" android:layout_weight="1"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/linearweb" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/textView21">
+        <ScrollView android:id="@+id/scrollweb" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:id="@+id/relativewebview" android:layout_width="match_parent" android:layout_height="match_parent">
+                <WebView android:id="@+id/webviewpostfuzzer" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

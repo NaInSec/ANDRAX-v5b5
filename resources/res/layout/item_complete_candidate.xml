@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:padding="@dimen/popup_padding" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/min_popup_height">
+    <TextView android:id="@+id/complete_display" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TextAppearance.AppCompat.Medium"/>
+    <View android:id="@+id/complete_split" android:background="@color/popup_split_background" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <TextView android:id="@+id/complete_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/text_margin" android:layout_marginEnd="@dimen/text_margin"/>
+</LinearLayout>

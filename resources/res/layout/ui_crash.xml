@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/terminal_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:theme="@style/ThemeOverlay.AppCompat.Dark" android:id="@+id/crash_toolbar" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/text_margin">
+        <TextView android:textColor="@color/textColorSecondary" android:id="@+id/crash_model" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TextAppearance.AppCompat.Medium"/>
+        <TextView android:textColor="@color/textColorSecondary" android:id="@+id/crash_app_version" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TextAppearance.AppCompat.Medium"/>
+        <TextView android:textColor="@color/textColor" android:gravity="top|left|center_vertical|center_horizontal|center|start" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_margin" android:text="@string/crash_stack_trace" style="@style/TextAppearance.AppCompat.Medium"/>
+        <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textColor="@color/textColor" android:gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/crash_details" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/text_margin" android:layout_marginEnd="@dimen/text_margin" style="@style/TextAppearance.AppCompat.Medium"/>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

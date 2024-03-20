@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@android:color/background_dark" android:paddingLeft="10dp" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="10dp" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Large" android:typeface="serif" android:textStyle="bold" android:gravity="center" android:id="@+id/textvmp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="VMP EVIL AP" android:layout_below="@+id/imagevmp" android:layout_alignParentLeft="true" android:layout_alignParentStart="true"/>
+                <ImageView android:id="@+id/imagevmp" android:layout_width="match_parent" android:layout_height="150dp" android:layout_marginTop="50dp" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" app:srcCompat="@drawable/vmp_logo"/>
+                <EditText android:textColor="@color/colorPrimary" android:textColorHint="@color/bluedack" android:id="@+id/ssid" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:hint="ANDRAX-Mobile-Pentest" android:layout_below="@+id/textvmp" android:inputType="textPersonName"/>
+                <RadioGroup android:id="@+id/rdgrp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/password">
+                    <RadioButton android:id="@+id/secured" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="WPA-PSK"/>
+                    <RadioButton android:id="@+id/open" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Open"/>
+                </RadioGroup>
+                <Button android:id="@+id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginBottom="10dp" android:text="Clear" android:layout_below="@+id/rdgrp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="false" android:layout_alignParentStart="true"/>
+                <Button android:layout_gravity="right" android:id="@+id/start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Start" android:layout_alignTop="@+id/cancel" android:layout_alignRight="@+id/ssid" android:layout_alignBottom="@+id/cancel" android:layout_alignEnd="@+id/ssid"/>
+                <EditText android:textColor="@color/colorPrimary" android:textColorHint="@color/bluedack" android:id="@+id/password" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="BEACRACKER" android:ems="10" android:layout_below="@+id/ssid" android:layout_alignParentLeft="true" android:inputType="textPassword" android:layout_alignParentStart="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

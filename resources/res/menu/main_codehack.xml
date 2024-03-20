@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/save" android:id="@+id/action_save" android:orderInCategory="1" android:title="Save" app:showAsAction="always"/>
+    <item android:icon="@drawable/saveas" android:id="@+id/action_save_as" android:orderInCategory="2" android:title="Save as" app:showAsAction="always"/>
+    <item android:icon="@drawable/newfile" android:id="@+id/action_newfile" android:orderInCategory="3" android:title="New file" app:showAsAction="always"/>
+    <item android:icon="@drawable/compile" android:id="@+id/action_compile" android:orderInCategory="4" android:title="Compile/RUN" app:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/exit" android:id="@+id/action_exit" android:orderInCategory="5" android:title="Exit" app:showAsAction="never"/>
+</menu>

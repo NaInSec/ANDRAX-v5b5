@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <EditTextPreference android:title="@string/pref_general_initial_command" android:key="@string/key_general_initial_command" android:summary="@string/pref_general_initial_command_desc"/>
+    <CheckBoxPreference android:title="@string/pref_general_bell" android:key="@string/key_general_bell" android:summary="@string/pref_general_bell_desc" android:defaultValue="true"/>
+    <CheckBoxPreference android:title="@string/pref_general_vibrate" android:key="@string/key_general_vibrate" android:summary="@string/pref_general_vibrate_desc" android:defaultValue="true"/>
+    <CheckBoxPreference android:title="@string/pref_general_backspace_map_to_esc" android:key="@string/key_generaL_backspace_map_to_esc" android:summary="@string/pref_general_backspace_map_to_esc_desc" android:defaultValue="false"/>
+    <CheckBoxPreference android:title="@string/pref_general_volume_as_control" android:key="@string/key_general_volume_as_control" android:summary="@string/pref_general_volume_as_control_desc" android:defaultValue="false"/>
+    <CheckBoxPreference android:title="@string/pref_general_enable_word_based_ime" android:key="@string/key_general_enable_word_based_ime" android:summary="@string/pref_general_enable_word_based_ime_desc" android:defaultValue="false"/>
+</PreferenceScreen>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:theme="@style/ThemeOverlay.AppCompat.Dark" android:id="@+id/primary_toolbar" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
